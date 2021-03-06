@@ -154,16 +154,17 @@ function Prompt(){
 }
 
 
-    // Generate Team Array
+//     //Generate Team Array
 
-// Prompt()
+Prompt()
 
-// .then(teamInput => {
-//     return generateTeam(teamArray)
-// })
+.then(team => {
+    return generateTeam(teamArray)
+})
 
-// // Writes to HTML file
+// Writes to HTML file
 
-// .then(pageHTML =>{
-//     return writeFile(pageHTML)
-// })
+.then(pageHTML =>{
+    return writeFile(pageHTML)
+})
+

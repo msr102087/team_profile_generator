@@ -41,3 +41,45 @@ function generateManager(manager) {
 }
 
 }
+
+function generateEngineer(engineer) {
+
+    for( var i = 0; i<engineer.length; i++){
+
+   
+    return `
+    
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h2>${engineer[i].name}</h2>
+      <h4>${engineer[i].title}</h4>
+      <p>Employee ID: ${engineer[i].id}</p>
+      <p>Email:  <a href="mailto: ${engineer[i].email}">${engineer[i].email}</a></p>
+      <p>Office Number: ${engineer[i].github} </p>
+    </div>
+</div>
+`
+}
+
+}
+
+function generateIntern(intern) {
+
+    for( var i = 0; i<intern.length; i++){
+
+   
+    return `
+    
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h2>${intern[i].name}</h2>
+      <h4>${intern[i].title}</h4>
+      <p>Employee ID: ${intern[i].id}</p>
+      <p>Email:  <a href="mailto: ${intern[i].email}">${intern[i].email}</a></p>
+      <p>Office Number: ${intern[i].school} </p>
+    </div>
+</div>
+`
+}
+
+}
