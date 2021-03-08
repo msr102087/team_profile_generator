@@ -6,7 +6,9 @@ const Employee = require('./lib/Employee');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
-const generateTeam = require('./src/generate_team.js')
+const generateTeam = require('./src/generate_team.js');
+const writeFile = require('./src/generate_team.js');
+
 
 // Employee Arrays
 
@@ -157,14 +159,12 @@ function Prompt(){
 //     //Generate Team Array
 
 Prompt()
-
-.then(team => {
+.then(teamData => {
     return generateTeam(teamArray)
-})
 
-// Writes to HTML file
+})
 
 .then(pageHTML =>{
     return writeFile(pageHTML)
-})
 
+})
