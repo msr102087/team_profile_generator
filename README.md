@@ -27,7 +27,7 @@ To install this application, download this repo and run node index.js in the com
 
 ## Usage
 
-Once you initate node index.js you will be asked a series of questions about your team.  Once you have completed the question prompts for your team, an HTML document will be distributed in the dist folder in the repo.  If you would like to watch a video demonstration of the project, you can do so here.
+Once you initate node index.js you will be asked a series of questions about your team.  Once you have completed the question prompts for your team, an HTML document will be distributed in the dist folder in the repo.  If you would like to watch a video demonstration of the project, you can do so here: https://www.youtube.com/watch?v=KlckVxyLSwk
 
 ## License
 
@@ -39,7 +39,7 @@ Megan Russell
 
 ## Tests
 
-There are three tests associated with this project.  They can be found in the tests folder located in the repo.  If you would like to run the tests yourself you may do so by entering in npm test in your command line.  There are four tests you may run (Employee, Engineer, Intern, Manager).  You may also watch a video demonstration here.
+There are three tests associated with this project.  They can be found in the tests folder located in the repo.  If you would like to run the tests yourself you may do so by entering in npm test in your command line.  There are four tests you may run (Employee, Engineer, Intern, Manager).  You may also watch a video demonstration here:  https://www.youtube.com/watch?v=YIccqsaSwvY
 
 ## Questions
 
